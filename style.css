@@ -19,7 +19,7 @@
 }
 
 .link-item {
-  margin: 1rem;
+  margin: 1rem 0;
 }
 
 .link-item::before {
@@ -29,4 +29,13 @@
 
 .tag {
   color: #4d4545;
+}
+
+.new-tab::after {
+  content: "Opens in a new tab";
+  font-size: 14px;
+  color: #9b9999;
+  margin-left: 10px;
+  display: inline-block;
+  text-decoration: none;
 }
